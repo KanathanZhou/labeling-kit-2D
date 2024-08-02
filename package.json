@@ -1,0 +1,17 @@
+{
+  "name": "yasha-kit",
+  "version": "0.0.20",
+  "scripts": {
+    "dev": "vite",
+    "build": "rm -rf dist/ && rollup -c",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^2.9.0"
+  },
+  "dependencies": {
+    "@rollup/plugin-commonjs": "^22.0.0",
+    "@rollup/plugin-node-resolve": "^13.2.1",
+    "pixi.js": "^6.3.0"
+  }
+}
